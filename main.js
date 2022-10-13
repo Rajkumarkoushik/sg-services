@@ -48,40 +48,39 @@ $(document).ready(function(){
 
 //   Testimonials section ends
 
-
-//   Whats app section starts
+// Whats app section starts
 // Left Propriedades
 // $(function () {
-//     $('.floating-wpp').floatingWhatsApp({
-//       headerTitle: 'Olá, bem vindo(a)!',
-//       headerColor: 'crimson',
-//       phone: '5531986562991',
-//       popupMessage: 'Como posso te ajudar?',
-//       message: "Eu entrei pelo site e gostaria de pedir um hamburger por favor...",
-//       showPopup: true,
-//       position: 'left',
-//       showOnIE: true,
-//       zindex: 54,
-//       size: '70px',
-//       backgroundColor: 'crimson',
-//       buttonImage: '<img src="https://matheusfreitas.com/mercatorio/img/burger.svg"/>'
-//     });
+//   $('.floating-wpp').floating({
+//     headerTitle: 'Olá, bem vindo(a)!',
+//     headerColor: 'crimson',
+//     phone: '5531986562991',
+//     popupMessage: 'Como posso te ajudar?',
+//     message: "Eu entrei pelo site e gostaria de pedir um hamburger por favor...",
+//     showPopup: true,
+//     position: 'left',
+//     showOnIE: true,
+//     zindex: 54,
+//     size: '70px',
+//     backgroundColor: 'crimson',
+//     buttonImage: '<img src="https://matheusfreitas.com/mercatorio/img/burger.svg"/>'
+//   });
 // });
 
-// Rightt Propriedades
-$(function () {
-    $('.Right-zap').floatingWhatsApp({
-      headerTitle: 'Olá, bem vindo(a)!',
-      phone: '+91 9121378937',
-      popupMessage: 'Como posso te ajudar?',
-      message: "Eu entrei pelo site e gostaria de pedir um hamburger por favor...",
-      showPopup: true,
-      position: 'right',
-      showOnIE: true,
-      zindex: 40,
-      size: '80px',
-      buttonImage: '<img src="https://matheusfreitas.com/mercatorio/img/whatsapp.svg"/>'
-    });
-});
-
+// // Rightt Propriedades
+// $(function () {
+//   $('.Right-zap').({
+//     headerTitle: 'Olá, bem vindo(a)!',
+//     phone: '5531986562991',
+//     popupMessage: 'Como posso te ajudar?',
+//     message: "Eu entrei pelo site e gostaria de pedir um hamburger por favor...",
+//     showPopup: true,
+//     position: 'right',
+//     showOnIE: true,
+//     zindex: 40,
+//     size: '80px',
+//     buttonImage: '<img src="https://matheusfreitas.com/mercatorio/img/whatsapp.svg"/>'
+//   });
+// });
 // Whats app section ends
+
