@@ -1,88 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SG Services</title>
-    <!-- Css link -->
-    <link rel="stylesheet" href="/style.css">
-    <!-- Shortcut icon -->
-    <link rel="shortcut icon" href="/logo.png">
-    <!-- Bootstrap link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-       <!-- Testimonials js -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    
-  
-
-</head>
-<body>
-    <!-- Nav section starts  -->
-    <nav class="nav">
-        <a href="index.html"><img src="/logo.png" alt=""></a>
-        <ul class="nav-links">
-            <li><a href="index.html" class="nav-item is-active" active-color="orange">Home</a></li>
-            <li><a href="aboutus.html" class="nav-item" active-color="green">About Us</a></li>
-            <li class="nav-ser"><a href="#" class="nav-item nav-services">Services</a>
-                <ul class="nav-sublinks">
-                    <li><a href="ac-services.html">Ac Services</a></li>
-                    <li><a href="#">Washing machine Services</a></li>
-                    <li><a href="#">Refrigirator Services</a></li>
-                </ul>
-            </li>
-            <li><a href="#" class="nav-item" active-color="red">Our Clients</a></li>
-            <!-- <li><a href="#" class="nav-item" active-color="rebeccapurple">Contact Us</a></li> -->
-        </ul>
-        <div>
-            <button class="custom-btn contact-button btn-5"><span>Contact Us</span></button>
-            <button class="custom-btn btn-5"><span>Appointment</span></button>
-        </div>
-        <span class="nav-indicator"></span>
-      </nav>
-
-      <!-- Nav section ends -->
-
-      
-      <!-- Conatct button section starts -->
-
-      <section class="contact_us text-center contactus-btn">
-        <div class="content">
-            <div class="container">
-                <!-- <i class="fa fa-headphones fa-5x"></i> -->
-                <h1>Tell Us What You Feel</h1>
-                <h4>Feel Free To Contact Us Any Time</h4>
-                <div class="contact-form-btn">
-                    <div role="form" class="contact-us-form contact-btn-form">
-                        <div>
-                            <div class="form-group btn-group">
-                                <input class="form-control input-lg" id="inputlg" type="text" placeholder="User Name">
-                            </div>
-                            <div class="form-group btn-group">
-                                <input class="form-control input-lg" id="inputlg" type="text" placeholder="Email">
-                            </div>
-                            <div class="form-group btn-group">
-                                <input class="form-control input-lg" id="inputlg" type="text" placeholder="Cell Phone">
-                            </div>
-                        </div>
-                        <div>
-                            <div class="form-group btn-group">
-                                <textarea class="form-control" id="message" placeholder="Your Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button class="custom-btn btn-5"><span>Contact Us</span></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-img">
-                        <img src="/contcat-logo.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-      <!-- Conatct button section ends -->
+<?php
+include "includes/header.php"
+?>
 
 
       <!-- Carousels section starts -->
@@ -124,31 +42,31 @@
           <div class="slider">
             <div class="slide-track">
                 <div class="slide">
-                    <img src="/assets/brands/bosch.png" alt="" />
+                    <img src="./assets/brands/bosch.png" alt="" />
                 </div>
                 <div class="slide">
-                    <img src="/assets/brands/haier.png" alt="" />
+                    <img src="./assets/brands/haier.png" alt="" />
                 </div>
                 <div class="slide">
-                    <img src="/assets/brands/ifb.png" alt="" />
+                    <img src="./assets/brands/ifb.png" alt="" />
                 </div>
                 <div class="slide">
-                    <img src="/assets/brands/lg.png" alt="" />
+                    <img src="./assets/brands/lg.png" alt="" />
                 </div>
                 <div class="slide">
-                    <img src="/assets/brands/lloyd.png" alt="" />
+                    <img src="./assets/brands/lloyd.png" alt="" />
                 </div>
                 <div class="slide">
-                    <img src="/assets/brands/mitsubishi.png" />
+                    <img src="./assets/brands/mitsubishi.png" />
                 </div>
                 <div class="slide">
-                    <img src="/assets/brands/panasonic.png" alt="" />
+                    <img src="./assets/brands/panasonic.png" alt="" />
                 </div>
                 <div class="slide">
-                    <img src="/assets/brands/samsung.png" alt="" />
+                    <img src="./assets/brands/samsung.png" alt="" />
                 </div>
                 <div class="slide">
-                    <img src="/assets/brands/voltas.png" alt="" />
+                    <img src="./assets/brands/voltas.png" alt="" />
                 </div>
             </div>
         </div>
@@ -252,29 +170,10 @@
     <!-- Contact us section ends -->
 
 
-  
+    <?php
+include "includes/footer.php"
+?>
 
 
          
-        <!-- Footer section starts  -->
-
-        <!-- Footer section ends -->
-
       
-
-    <script src="/main.js"></script>
-    <script src="/app.js"></script>
-
-    <!-- Bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
-
-    
-
-
-
-</body>
-</html>

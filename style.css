@@ -7,9 +7,11 @@
 
 /* Nav section starts */
 .nav a img{
-    height: 70px;
-    width: 100px;
-    padding-top: 10px;
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  left: 62px;
+  top: 6px;
 }
 
 .nav {
@@ -20,6 +22,9 @@
   align-items: center;
   background-color: azure;
   padding-bottom: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .nav-links{
     display: flex;
@@ -485,12 +490,17 @@ transform: scale(1.1, 1.1);
 
 /* Ac barnds section starts */
 .ac-brands img{
-  width: 180px;
-  height: 150px;
+  width: 170px;
+  height: auto;
   margin: 0 20px;
-  
 }
-
+.ac-brands-main{
+  background: #333;
+ padding: 10px 0 10px 30px;
+}
+.rg-brands img{
+  width: 140px;
+}
 /* Ac brands section ends */
 
 /* Contact btn section  starts */
@@ -524,4 +534,170 @@ transform: scale(1.1, 1.1);
 }
 /* Contact btn section  sends */
 
+
+/* Reviews and testimonials section starts  */
+.reviwes-title{
+  width: 1000px;
+  margin: 30px auto;
+}
+.reviwes-title h1{
+  text-align: center;
+  padding-bottom: 10px;
+}
+/* Reviews and testimonials section ends  */
+
+/* Whats app section starts */
+
+.btn-whatsapp-chat{
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  z-index:5;
+  padding:5px;
+  background:#28ad2c;
+  display:block;
+  height:70px;
+  width:70px;
+  cursor:pointer;
+  border-radius:50%;
+  position: fixed;
+}
+.btn-whatsapp-chat::before{
+  content: '';
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: transparent url('https://www.kallpa.travel/wp-content/plugins/whatsapp-for-wordpress/assets/img/whatsapp_logo.svg') center center no-repeat;
+    background-size: 30px auto;
+    transition: 0.4s ease all;
+}
+.btn-whatsapp-chat::after{
+  content: '';
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: transparent url('https://www.kallpa.travel/wp-content/plugins/whatsapp-for-wordpress/assets/img/x_icon.svg') center center no-repeat;
+    background-size: 14px auto;
+    transition: 0.4s ease all;
+    transform: scale(0) rotate(-360deg);
+}
+.btn-whatsapp-chat.openbtn::before{
+  opacity: 0;
+    transform: scale(0) rotate(360deg);
+}
+.btn-whatsapp-chat.openbtn::after{
+  opacity: 1;
+    transform: scale(1.3) rotate(0deg);
+}
+
+.box-whatsapp-chat{
+  width:300px;
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  z-index:1;
+  visibility:hidden;
+  border-radius:5px;
+  opacity:0;
+  transition:0.3s;
+  box-shadow:3px 3px 10px 2px rgb(150 150 150 / 70%);
+}
+.box-whatsapp-chat::after{
+  position:absolute;
+  top:100%;
+  left:20px;
+  content:"";
+  border-left:10px solid transparent;
+  border-right:10px solid transparent;
+  border-top:10px solid #f2f2f2;
+  border-bottom: 0px solid red;
+}
+.box-whatsapp-chat.open{
+  visibility:visible;
+  opacity:1;
+  transform:translate(0,-70px);
+}
+
+.box-whatsapp-chat .header-whatsapp-chat{
+  background:#0e2e4d;
+  padding:10px 0px;
+  height:auto;
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  border-radius: 5px 5px 0px 0px;
+}
+.box-whatsapp-chat .header-whatsapp-chat .icon-whatsapp-chat{
+  width:20%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+}
+.box-whatsapp-chat .header-whatsapp-chat .texto-whatsapp-chat{
+  width:80%;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.box-whatsapp-chat .content-whatsapp-chat{
+  background: #f2f2f2;
+  padding:5px 15px 20px 15px;
+  color:#0e2e4d;
+  border-radius:0px 0px 5px 5px;
+}
+.box-whatsapp-chat .content-whatsapp-chat a.agente-whatsapp-chat{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  align-content:center;
+  position:relative;
+  border-radius:3px;
+  overflow:hidden;
+  background:white;
+  padding:15px 0px;
+  padding-left:70px;
+  border-left:2px solid #0e2e4d;
+  color: #0e2e4d;
+  text-decoration:none;
+}
+.box-whatsapp-chat .content-whatsapp-chat a.agente-whatsapp-chat:hover{
+  background:white;
+  box-shadow:0px 7px 15px 1px rgba(55,62,70,0.07);
+}
+.box-whatsapp-chat .content-whatsapp-chat .agente-whatsapp-chat img.profile-img{
+  height:50px;
+  width:50px;
+  object-fit:cover;
+  border-radius:50%;
+  position:absolute;
+  transform:translatey(-50%);
+  top:50%;
+  left:0;
+}
+.box-whatsapp-chat .content-whatsapp-chat .agente-whatsapp-chat img.icon-profile-img{
+  position:absolute;
+  transform:translatey(-50%);
+  right:10px;
+  top:50%;
+  padding:5px;
+  box-sizing:border-box;
+  height:30px;
+  width:30px;
+}
+.box-whatsapp-chat .content-whatsapp-chat .agente-whatsapp-chat p{
+  padding:0;
+  margin:0;
+  width:100%;
+}
+/* Whats app section ends */
 
