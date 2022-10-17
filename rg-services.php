@@ -17,6 +17,37 @@ include "includes/header.php"
             </div>
     <!-- Book your appointment section ends -->
 
+
+     <!-- Refrigerator start -->
+     <div class="ac_service">
+      <div>
+        <img src=".\assets\refrigerator.jpg" alt="" />
+      </div>
+      <div>
+        <h1 data-aos="fade-right">Refrigerator</h1>
+        <h5 data-aos="zoom-in-down">
+          <i class="fa-solid fa-circle"></i>Cooling Problem
+        </h5>
+        <h5 data-aos="zoom-in-down">
+          <i class="fa-solid fa-circle"></i>Compressor Problem
+        </h5>
+        <h5 data-aos="zoom-in-down">
+          <i class="fa-solid fa-circle"></i>Power Problem
+        </h5>
+        <h5 data-aos="zoom-in-down">
+          <i class="fa-solid fa-circle"></i>Gas Filling
+        </h5>
+        <h5 data-aos="zoom-in-down"><i class="fa-solid fa-circle"></i>Power</h5>
+        <h5 data-aos="zoom-in-down">
+          <i class="fa-solid fa-circle"></i>Not Working
+        </h5>
+        <button class="custom-btn btn-5 call-us" data-aos="fade-left"><a href="tel: +91 9121378937">CALL US ON 9121378937</a></button>
+      </div>
+    </div>
+
+    <!-- Refrigerator end -->
+
+    
     <!-- We provide our services for section starts -->
     <section class="ac-brands-main">
         <div class="ac-brands rg-brands">

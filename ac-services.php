@@ -4,7 +4,7 @@ include "includes/header.php"
 
       <!-- Banner section starts -->
     <div class="banner-ac">
-      <img src="./assets/ac-banner.jpg" alt="">
+      <img src=".\assets\banners-sg\ac-banner2.jpg" alt="">
     </div>
     <!-- Banner section ends -->
 
@@ -17,8 +17,44 @@ include "includes/header.php"
             </div>
     <!-- Book your appointment section ends -->
 
-    <!-- We provide our services for section starts -->
-    <section class="ac-brands-main">
+
+
+        <!--  AC start -->
+        <div class="ac_service">
+          <div>
+            <img src=".\assets\ac-img.jpg" alt="" />
+          </div>
+            <ul>
+              <h1 data-aos="zoom-in">Air Conditioner</h1>
+              <h5 data-aos="fade-up"><i class="fa-solid fa-circle"></i> Cooling</h5>
+              <h5 data-aos="fade-up">
+                <i class="fa-solid fa-circle"></i>Water Leakage
+              </h5>
+              <h5 data-aos="fade-up">
+                <i class="fa-solid fa-circle"></i>Error Code Problem
+              </h5>
+              <h5 data-aos="fade-up">
+                <i class="fa-solid fa-circle"></i>Coil Leakage
+              </h5>
+              <h5 data-aos="fade-up">
+                <i class="fa-solid fa-circle"></i>Lower Moter Problem
+              </h5>
+              <h5 data-aos="fade-up">
+                <i class="fa-solid fa-circle"></i>Out Door Not Working
+              </h5>
+              <h5 data-aos="fade-up">
+                <i class="fa-solid fa-circle"></i>Out Door Fan Not Working
+              </h5>
+              <h5 data-aos="fade-up">
+                <i class="fa-solid fa-circle"></i>Installation
+              </h5>
+              <button class="custom-btn btn-5 call-us" data-aos="fade-left"><a href="tel: +91 9121378937">CALL US ON 9121378937</a></button>
+            </ul>
+        </div>
+    <!--   AC end  -->
+
+        <!-- We provide our services for section starts -->
+        <section class="ac-brands-main">
         <div class="ac-brands">
             <img src="./assets/brands/samsung.png" alt="">
             <img src="./assets/brands/mitsubishi.png" alt="">

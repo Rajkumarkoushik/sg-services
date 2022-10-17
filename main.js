@@ -1,27 +1,27 @@
 // Nav section starts
 
-const indicator = document.querySelector('.nav-indicator');
-const items = document.querySelectorAll('.nav-item');
+// const indicator = document.querySelector('.nav-indicator');
+// const items = document.querySelectorAll('.nav-item');
 
-function handleIndicator(el) {
-  items.forEach(item => {
-    item.classList.remove('is-active');
-    item.removeAttribute('style');
-  });
+// function handleIndicator(el) {
+//   items.forEach(item => {
+//     item.classList.remove('is-active');
+//     item.removeAttribute('style');
+//   });
 
-  indicator.style.width = `${el.offsetWidth}px`;
-  indicator.style.left = `${el.offsetLeft}px`;
-  indicator.style.backgroundColor = el.getAttribute('active-color');
+//   indicator.style.width = `${el.offsetWidth}px`;
+//   indicator.style.left = `${el.offsetLeft}px`;
+//   indicator.style.backgroundColor = el.getAttribute('active-color');
 
-  el.classList.add('is-active');
-  el.style.color = el.getAttribute('active-color');
-}
+//   el.classList.add('is-active');
+//   el.style.color = el.getAttribute('active-color');
+// }
 
 
-items.forEach((item, index) => {
-  item.addEventListener('click', e => {handleIndicator(e.target);});
-  item.classList.contains('is-active') && handleIndicator(item);
-});
+// items.forEach((item, index) => {
+//   item.addEventListener('click', e => {handleIndicator(e.target);});
+//   item.classList.contains('is-active') && handleIndicator(item);
+// });
 
 // Nav section ends
 
@@ -49,46 +49,56 @@ $(document).ready(function(){
 //   Testimonials section ends
 
 // Contact btn section starts
-const contactUs = document.querySelector(".contact_us");
-const contactButton = document.querySelector(".contact-button");
+// const contactUs = document.querySelector(".contact_us");
+// const contactButton = document.querySelector(".contact-button");
 
-contactButton.addEventListener("click", () => {
-  contactUs.classList.toggle("cotactform-show");
+// contactButton.addEventListener("click", () => {
+//   contactUs.classList.toggle("cotactform-show");
 
-});
+// });
 
 // Contact btn section ends
 
-// Whats ap section stats
-$(document).ready(function(){
 
-  $('.btn-whatsapp-chat').click(function(){
-    $('.box-whatsapp-chat').toggleClass('open');
-    $(this).toggleClass('openbtn');
-  });
+
+
+
+// ======= show top start ========
+const scrollTop = document.querySelector(".scroll-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    scrollTop.classList.add("scroll-active");
+  } else {
+    scrollTop.classList.remove("scroll-active");
+  }
+});
+// ======= show top end =========
+
+
+const appointmentBtn = document.querySelector(".appointment-btn");
+const appointmentForm = document.querySelector(".appointment-form");
+const removeIcon = document.querySelector(".remove-icon");
+
+appointmentBtn.addEventListener("click", () => {
+  appointmentForm.classList.toggle("show-appointmentletter");
+});
+
+removeIcon.addEventListener("click", () => {
+  appointmentForm.classList.toggle("show-appointmentletter");
+});
+
+// Appointment section ends
+
+// Pre loader section starts
+$(document).ready(function() {
+ 
+  // Fakes the loading setting a timeout
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 3500);
  
 });
 
-
-
-function isMobileWA() {
-     return /Android|webOS|iPhone|iPad|iPod|Windows Phone|IEMobile|Mobile|BlackBerry/i.test(navigator.userAgent);
-   }
-   var elm = jQuery('a[href*="whatsapp.com"]');
-   jQuery.each(elm, function (index, value) {
-     var item = jQuery(value).attr("href");
-     if (item.indexOf("chat") != -1) {
-       //nothing
-     } else if (item.indexOf("web.whatsapp") != -1 && isMobileWA()) {
-       var itemLink = item;
-       var newLink = itemLink.replace("web.whatsapp", "api.whatsapp");
-       jQuery(value).attr("href", newLink);
-     } else if (item.indexOf("api.whatsapp") != -1 && !isMobileWA()) {
-       var itemLink = item;
-       var newLink = itemLink.replace("api.whatsapp", "web.whatsapp");
-       jQuery(value).attr("href", newLink);
-     }
-   });
-// Whats ap section ends
-
+// Pre loader section ends
 

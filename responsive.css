@@ -1,0 +1,92 @@
+@media(min-width: 1024px) and (max-width : 1300px){
+   *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+   }
+    .nav{
+        width: 1109px;
+    }
+    .btn-call{
+        right: 370px;
+    }
+    .slider{
+        width: 1000px;
+        margin: 0 50px;
+    }
+    .nav a img {
+        height: 90px;
+        width: 130px;
+        position: absolute;
+        left: 60px;
+        top: 11px;
+    }
+    .carousel-main{
+        width: 1109px;
+    }
+    .card-deck{
+        margin-left: 40px !important;
+    }
+    .contact_us .content{
+        width: 1109px;
+    }
+    .location-sec{
+        width: 1109px;
+    }
+    footer{
+        width: 1109px;
+    }
+    .wm-content{
+        padding-left: 60px;
+    }
+    .nav-ac a img{
+        position: absolute;
+        left: 30px;
+      }
+      .nav-wm a img{
+        position: absolute;
+        left: 200px;
+      }
+      .nav-rg a img{
+        position: absolute;
+        left: 380px;
+      }
+      .appointment-form img{
+        height: 400px;
+        width: 400px;
+        padding-top: 100px;
+        margin-right: 30px;
+      }
+      .form-content input {
+        margin: 6px 0;
+    }
+    .nav-sublinks{
+        right: 330px;
+    }
+    .banner-ac img {
+        width: 1109px;
+        height: 100vh;
+    }
+    .appointment-sec{
+        width: 1109px;
+    }
+    .ac_service img{
+        height: 310px;
+    }
+    .ac-brands-main{
+        width: 1109px;
+    }
+    .ac-brands img{
+        width: 130px;
+    }
+    .review-bg{
+        width: 1109px;
+    }
+    
+
+}
+
+
+@media(max-width : 767px){
+
+}
