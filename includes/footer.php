@@ -24,13 +24,13 @@
             >
           </li>
         </ul>
-        <ul class="company">
+        <ul class="company services-company">
           <h4 class="company_gap">Our Services</h4>
           <li><a href="ac-services.php">Air Conditioner</a></li>
           <li><a href="wm-services.php">Washing Mission</a></li>
           <li><a href="rg-services.php">Refrigerator</a></li>
         </ul>
-        <ul class="company">
+        <ul class="company services-company">
           <h4 class="company_gap">Company</h4>
           <li><a href="aboutus.php">About Us</a></li>
           <li><a href="reviews.php">Reviews</a></li>

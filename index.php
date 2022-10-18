@@ -147,31 +147,31 @@ include "includes/header.php"
         <h1>Authorized Brands</h1>
           <div class="slider">
             <div class="slide-track">
-                <div class="slide">
+                <div class="slide-brand">
                     <img src="./assets/brands/bosch.png" alt="" />
                 </div>
-                <div class="slide">
+                <div class="slide-brand">
                     <img src="./assets/brands/haier.png" alt="" />
                 </div>
-                <div class="slide">
+                <div class="slide-brand">
                     <img src="./assets/brands/ifb.png" alt="" />
                 </div>
-                <div class="slide">
+                <div class="slide-brand">
                     <img src="./assets/brands/lg.png" alt="" />
                 </div>
-                <div class="slide">
+                <div class="slide-brand">
                     <img src="./assets/brands/lloyd.png" alt="" />
                 </div>
-                <div class="slide">
+                <div class="slide-brand">
                     <img src="./assets/brands/mitsubishi.png" />
                 </div>
-                <div class="slide">
+                <div class="slide-brand">
                     <img src="./assets/brands/panasonic.png" alt="" />
                 </div>
-                <div class="slide">
+                <div class="slide-brand">
                     <img src="./assets/brands/samsung.png" alt="" />
                 </div>
-                <div class="slide">
+                <div class="slide-brand">
                     <img src="./assets/brands/voltas.png" alt="" />
                 </div>
             </div>
@@ -181,7 +181,7 @@ include "includes/header.php"
           <!-- Brands section ends -->
 
            <!-- Testimonials section starts -->
-           <section class="testimonial" data-aos="fade-down-right">
+           <section class="testimonial " data-aos="fade-down-right">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 d-none d-lg-block">

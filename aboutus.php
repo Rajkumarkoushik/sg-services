@@ -7,9 +7,9 @@ include "includes/header.php"
             <h4 class="text-center">One Stop Solution For Your Appliance Repair And Maintenance Needs</h4>
         </div>
         <div class="AboutUssec">
-            <div class=" justify-text" >
-                <h1 class="AboutUsTitle">Who are We ?</h1>
-                <p class="about-text">
+            <div class=" justify-text about-content" >
+                <h1>Who are We ?</h1>
+                <p>
                     SG service center is a leading appliances repair and service center located in various
                     localities in Andhra Pradesh, with its major branches in Visakhapatnam and Srikakulam, with services in and around. Our 
                     We provide maintenance and repair services for Refrigerators, Washing machines and Air Conditioners. We provide services for all major brands such as, Samsung, Sony, LG, IFB, Bosch, Panasonic, Haier and many more.</p>

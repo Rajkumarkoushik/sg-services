@@ -8,7 +8,7 @@
     <!-- Css link -->
     <link rel="stylesheet" href="./style.css">
     <!-- Responsive link -->
-    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href=".\responsive.css">
     <!-- Shortcut icon -->
     <link rel="shortcut icon" href=".\assets\images\sg-services-logo.png">
     <!-- Bootstrap link -->
@@ -33,7 +33,7 @@
 
 
     <!-- Nav section starts  -->
-    <nav class="nav">
+     <nav class="nav">
         <a href="index.php"><img src=".\assets\images\sg-services-logo.png" alt=""></a>
         <ul class="nav-links">
             <li><a href="index.php" class="nav-item" active-color="orange">Home</a></li>
@@ -61,10 +61,53 @@
                 <a href="tel: +91 9121378937" class="call">+91 9121378937</a>
             </a>
             <button class="custom-btn btn-5 appointment-btn"><span>Appointment</span></button>
+            <i class="fa-solid fa-bars hamburger-icon"></i>
            
         </div>
         <span class="nav-indicator"></span>
       </nav>
+        <!-- <button>Appointment</button> -->
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
+        <a class="navbar-brand" href="#"><img src="/assets/sg_logo.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Air Conditioner</a>
+                <a class="dropdown-item" href="#">Washing Machine</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Refrigirator</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+            <div>
+                <a href="tel:+91 6302034467" rel="nofollow" class="btn-call">
+                    <div class="btn-call__ico">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <a href="tel: +91 9121378937" class="call">+91 9121378937</a>
+                </a>
+                <button class="custom-btn btn-5 appointment-btn"><span>Appointment</span></button>
+                <span class="nav-indicator"></span>
+            </div>
+        </div>
+      </nav> -->
 
       <!-- Nav section ends -->
 
@@ -135,7 +178,7 @@
     <!-- Book appointment section starts -->
     <div class="appointment-form">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6">
                 <div class="col-12">
                     <h3 class="text-uppercase mb-4">Appointment form</h3>
                 </div>
@@ -167,33 +210,7 @@
                                 <option value="3" class="rg-select">Refrigerator</option>
                             </select>
                         </div>
-                        <div class="col-lg-12 ac-checkbox">
-                            <input type="checkbox">
-                            <label for="text">O General</label>
-                            <input type="checkbox">
-                            <label for="text">Mitsubishi</label>
-                            <input type="checkbox">
-                            <label for="text">Lloyd</label>
-                            <input type="checkbox">
-                            <label for="text">LG</label>
-                            <input type="checkbox">
-                            <label for="text">Samsung</label>
-                            <input type="checkbox">
-                            <label for="text">Panasonic</label>
-                            <input type="checkbox">
-                            <label for="text">Haier</label>
-                            <input type="checkbox">
-                            <label for="text">Vstar</label>
-                            <input type="checkbox">
-                            <label for="text">Blue Star</label>
-                            <input type="checkbox">
-                            <label for="text">Daikin</label>
-                            <input type="checkbox">
-                            <label for="text">Carrier</label>
-                            <input type="checkbox">
-                            <label for="text">Voltas</label>
-                        </div>
-                        <div class="col-12">
+                        <div class="col-12 form-textarea">
                             <textarea class="form-control" placeholder="Message" rows="5" columns="15"></textarea>
                         </div>
                         <div class="col-12 mt-3">                        
@@ -204,7 +221,7 @@
                 </form>
             </div>
         </div>
-        <img src=".\assets\24-services.jpg" alt="">
+        <img class="col-xs-6" src=".\assets\24-services.jpg" alt="">
         <i class="fa-solid fa-xmark remove-icon"></i>
     </div>
 

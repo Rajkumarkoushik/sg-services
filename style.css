@@ -6,9 +6,11 @@
 }
 body{
   font-family: "kanit" sans-serif;
-  background: url("./assets/sg-bg.png");
+  /* background: url("./assets/sg-bg.png"); */
+  /* background-size: cover;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden; */
+
 }
 p{
   font-size: 1rem;
@@ -23,6 +25,9 @@ p{
   position: absolute;
   left: 62px;
   top: 6px;
+}
+.hamburger-icon{
+  display: none !important;
 }
 .nav-sublinks li a img{
   height: 80px;
@@ -206,14 +211,6 @@ p{
 
 
 /* Testimonials section starts */
-
-/* ul {
-  list-style-type: none;
-}
-
-a, a:hover {
-  text-decoration: none;
-} */
 
  .testimonial {
   padding: 100px 0;
@@ -437,11 +434,11 @@ a, a:hover {
     display: flex;
     width: calc(250px * 14);
   }
-  .slider .slide {
+  .slider .slide-brand {
     height: 100px;
     width: 250px;
   }
-  .slide img{
+  .slide-brand img{
     height: 100px;
     width: 250px;
   }
@@ -1291,7 +1288,7 @@ a{
   padding-top: 30px;
 }
 .appointment-form{
-  transform: translateY(-1000px);
+  transform: translateY(-1500px);
   transition: all 0.8s;
   position: fixed;
   z-index: 2;
